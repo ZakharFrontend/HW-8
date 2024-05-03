@@ -17,3 +17,36 @@ div + div>p {
 .yellow {
     color: yellow;
 }
+thead :first-child{
+    background-color: darkred;
+}
+
+#polski:hover{
+    color: blue;
+    font-size: 45px;
+}
+
+ 
+caption:hover{
+    font-size: 23px;
+    background-color: blue;
+    color: red;
+}
+tr:nth-child(even){
+    color: dodgerblue;
+}
+tr:nth-child(odd){
+    color: hotpink;
+}
+.pe:active{
+    text-align: right;
+        color: violet;
+        background-color: green;
+}
+.lesson3:nth-child(3){
+    font-size: xx-large;
+}
+tr :last-child{
+    background-color: magenta;
+    color: mistyrose;
+}
